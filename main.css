@@ -1,0 +1,77 @@
+html{
+    background-color: dodgerblue;
+    font-family: Cavolini, Arial, Calibri;
+}
+.topnav{
+    margin-left:0;
+    margin-right:20px;
+    background:black;
+    overflow:hidden;
+    padding:20px;
+    width:97.5%;
+
+}
+.topnav input{
+    float:right;
+}
+.header-img {
+    width: 100%;
+    height: 350px;
+    background: url(https://static1.squarespace.com/static/59b7b8332994caa2f5fafd38/t/5a4ca191ec212d8987bcd206/1514971540569/OOG+Extended_Black_PNG.png?format=1500w);
+    background-size: cover;
+}
+a:link{
+    margin-left:10px;
+    margin-right:80px;
+    text-decoration:none;
+    color:white;
+
+}
+a:active{
+    color:white;
+}
+a:hover{
+    text-decoration:underline;
+}
+h1{
+    text-align:center;
+    font-size: 45pt;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px navy, 0 0 5px blue;
+}
+p{
+    text-align:left;
+    padding-left: 60%;
+    padding-top: 2em;
+    font-size: 24pt;
+    font-weight: bold;
+}
+dl{
+    text-align: left;
+    padding-left: 60%;
+    font-size: 18pt;
+    
+}
+img {
+    float: left;
+    width: 50%;
+    box-shadow: 10px 10px 5px black, 5px 5px 5px blue;
+    margin-top: -14%;
+}
+
+/*-----foooter----*/
+
+footer{
+    width: 100%;
+    background-color: gray;
+    bottom: 0;
+    left: 0;
+    margin-top: 30%;
+    position: static;
+    margin-bottom: 0;
+}
+.footer a{
+    margin-left: 30px;
+    margin-right: 100px;
+}
